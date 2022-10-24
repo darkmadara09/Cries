@@ -1,0 +1,6 @@
+python-telegram-bot
+akinator.py
+pymongo
+aiogram
+dnspython
+Footer
