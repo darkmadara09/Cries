@@ -7,7 +7,7 @@ from telegram.ext import Updater, CommandHandler, CallbackContext, CallbackQuery
 from config import BOT_TOKEN
 from database import *
 from init import LANGUAGE_CODE, LANG_MSG, ME_MSG
-import akinator
+from akinator import Akinator
 
 
 
@@ -67,7 +67,7 @@ def info(update: Update, context: CallbackContext):
 
 
 def play_cmd_handler(update: Update, context: CallbackContext) -> None:
-    Fu = akinator.Akinator()
+    Fu = Akinator()
     user_id = update.effective_user.id
     msg = update.message.reply_text("Loading...")
     updateTotalGuess(user_id, total_guess=1)
@@ -85,7 +85,7 @@ def start_Game(update: Update, context: CallbackContext):
     try:
         query = update.callback_query
         if query.data == "start_Game":
-            Fu = akinator.Akinator()
+            Fu = Akinator()
             user_id = update.effective_user.id
             updateTotalGuess(user_id, total_guess=1)
             q = Fu.start_game(language=getLanguage(user_id))
