@@ -15,7 +15,3 @@ Soon will change username and bot name
 `/me` - Shows stats about you.
 
 `/leaderboard` - Check leaderboard. It includes various categories!
-
-## Credits
-
-[NinjaSnail1080's Akinator.py](https://github.com/NinjaSnail1080/akinator.py) for akinator API  
