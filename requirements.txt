@@ -1,5 +1,5 @@
 python-telegram-bot
-akinator.py
+akinator
 pymongo
 aiogram
 dnspython
