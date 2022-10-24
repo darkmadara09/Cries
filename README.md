@@ -3,7 +3,6 @@ This is a bot that works like [akinator](https://www.google.com/url?sa=t&source=
 
 **[Link](https://t.me/Usuke_Robot)**
 
-Soon will change username and bot name 
 
 # Commands
 /start - Start the bot
