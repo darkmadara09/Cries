@@ -4,9 +4,6 @@ This is a bot that works like [akinator](https://www.google.com/url?sa=t&source=
 **[Link](https://t.me/Usuke_Robot)**
 
 
-Join [Programmers Talk](https://t.me/Programmers_talks)
-If you have any good idea we will discuss there.
-
 # Commands
 /start - Start the bot
 
